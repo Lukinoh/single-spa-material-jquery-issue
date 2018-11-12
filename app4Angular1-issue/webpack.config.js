@@ -4,13 +4,14 @@ const ProvidePlugin = require('webpack/lib/ProvidePlugin');
 
 module.exports = {
 	entry: {
-		singleSpaEntry: 'src/singleSpaEntry.js'
+		singleSpaEntry: 'src/singleSpaEntry.js',
+		app4: 'src/app.module.js'
 	},
 	output: {
 		filename: '[name].js',
 		path: path.resolve(__dirname, 'release'),
         libraryTarget: 'umd',
-        library: 'app3'
+        library: 'app4'
 	},
 	module: {
 		rules: [

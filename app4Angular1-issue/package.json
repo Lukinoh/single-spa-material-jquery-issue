@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Portal app that builds the foundation of multiple SPAs",
   "scripts": {
-    "watch:portal": "webpack-dev-server --port 9003",
+    "watch:portal": "webpack-dev-server --port 9004",
     "build:portal": "webpack -p --progress"
   },
   "author": "Michael Ruecker",
@@ -26,6 +26,7 @@
     "angular-messages": "^1.7.5",
     "jquery": "^3.3.1",
     "html-loader": "^0.5.5",
-    "single-spa-angularjs": "3.0.1"
+    "single-spa-angularjs": "3.0.1",
+    "systemjs": "^0.21.4"
   }
 }
