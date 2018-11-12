@@ -5,8 +5,7 @@ angular
     .component('root', {
         template: `
             <div style="margin-top: 100px;">
-              This was rendered by App3 which is written in Angular 1.6.
-              This apps is the same app3 as the original repository https://github.com/me-12/single-spa-portal-example with a slider from angular-material added
+              This app is the same app3 as the original repository https://github.com/me-12/single-spa-portal-example with a slider from angular-material added
             </div>
             
              <md-slider aria-label="test"

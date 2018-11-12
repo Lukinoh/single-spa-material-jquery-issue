@@ -7,7 +7,7 @@ angular
     .component('root', {
         template: `
             <div style="margin-top: 100px;">
-              This was rendered by App4 which is written in Angular 1.6
+                This app gets the 'app.module.js' with System.JS otherwise, it is the same as app3Angular1
             </div>
             
              <md-slider aria-label="test"
