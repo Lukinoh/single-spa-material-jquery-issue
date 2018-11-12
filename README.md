@@ -20,6 +20,18 @@ This app is a modified version of app3.
 Concretely the difference is that in the `singleSpaEntry.js`, we do not import directly `app.module.js`, but we go through a SystemJS call.
 
 
+In the two apps we added a provide plugin in webpack to make jquery global:
+```
+plugins: [
+    new ProvidePlugin({
+        $: "jquery",
+        jQuery: "jquery",
+        'window.jQuery': 'jquery',
+        'window.$': 'jquery'
+    })
+],
+```
+
 That makes me think that the issue is probably link to SystemJS, but I do not know enough of the library.
 
 ## Original Repository
